@@ -103,7 +103,7 @@ export const Chat = () => {
             id="message"
             type="text"
             className="input-style textarea-chat"
-            placeholder="Escribe aquí tu mensaje..."
+            placeholder="Write your message here..."
             onKeyPress={(event) => {
               if (event.key == "Enter") {
                 if (event.target.value != "") {
