@@ -77,7 +77,7 @@ export const Register = () => {
                 className="input-style"
                 minLength="6"
                 maxLength="30"
-                placeholder="Entre 6 y 30 caracteres"
+                placeholder="Enter Between 6 and 30 characters"
                 required
                 {...register("password")}
               />
