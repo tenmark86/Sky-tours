@@ -1,0 +1,17 @@
+.trips-background {
+  background-image: url("../img/background-trips.jpeg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.trips-body {
+  background-color: rgba(255, 255, 255, 0.75);
+  min-height: calc(100vh - 96px);
+}
+
+@media screen and (min-width: 768px) {
+  .trips-body {
+    padding: 0 3rem;
+  }
+}
