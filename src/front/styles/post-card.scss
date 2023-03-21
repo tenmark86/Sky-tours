@@ -1,0 +1,48 @@
+.post-card-size{
+    height: 25rem;
+}
+.media-box{
+    height: 100%;
+    overflow: hidden;
+    padding: 0;
+}
+
+//repaired images finally
+.media-picture{
+  width: 100%;
+  height: auto;
+}
+
+.icon-no-photo{
+    font-size: 5rem;
+}
+
+@supports(object-fit: cover){
+    .media-picture{
+      height: 100%;
+      object-fit: cover;
+      object-position: center center;
+    }
+}
+//------
+
+.content-post-box{
+    padding: 0;
+    background-color: rgba(255,255,255,0.25);
+}
+.text-post{
+    max-height: 10.5rem;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+@media only screen and (max-width: 767px) {
+    .post-card-size{
+        height: 35rem;
+    }
+    .media-box{
+        height: 40%;
+    }
+    .text-post{
+        max-height: 7.5rem;
+    }
+}
