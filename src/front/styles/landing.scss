@@ -1,0 +1,130 @@
+.home-header{
+    background: url(../img/picture-home.jpg) no-repeat center;
+    background-size: cover;
+    display: flex;
+    @media only screen and (min-width: 768px) {
+        justify-content: space-between;
+        height: calc(100vh - 35vh);
+    }
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+    }
+}
+.logo-box{
+    display:flex;
+    @media only screen and (min-width: 768px) {
+        height: 7rem;
+        margin: 3rem;
+    }
+    @media only screen and (max-width: 768px) {
+        flex-direction: column;
+        height: 12rem;
+        margin: 1rem auto;
+    }
+}
+.logobraulg {
+    height: 7rem;
+    width: 7rem;
+    @media only screen and (max-width: 768px) {
+        margin: 0 auto;
+    }
+}
+.logotextbraulg {
+    height: 5rem;
+    width: 15rem;
+    margin: auto;
+    @media only screen and (max-width: 768px) {
+        margin:0 auto;
+    }
+}
+
+.links-box{
+    height: 15rem;
+    width: 20rem;
+    padding: 1.5rem;
+    margin: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #00000067;
+    border-radius: 0.65rem;
+    text-align: center;
+    @media only screen and (max-width: 768px) {
+        margin:0 auto;
+    }
+}
+.home-background{
+    background-image: url("../img/background-landing.jpg");
+    background-size: cover;
+}
+.home-body{
+    background-color: rgba(255,255,255,0.5);
+}
+.title-home{
+    text-align: center;
+    margin: 1rem
+}
+
+
+.resume-container{
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 0.65rem;
+    margin: 1rem 2rem !important;
+    padding: 1rem;
+    font-weight: bold;
+}
+
+
+
+
+.auth-btn{
+    font-family: Nunito;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 34px;
+    letter-spacing: 0em;
+    width: 196px;
+    font-family: Nunito;
+    font-weight: bold;
+    color: #FFFFFF;
+    height: 46px;
+    border:none;
+    text-align: center;
+    background: #17A398;
+    margin: .5rem 0;
+}
+.trips-cards-3{
+    display:flex;
+}
+.mini-cards-comp{
+    display:flex;
+    width: 100%;
+}
+.card-small-1, .card-small-2, .card-small-3{
+    width:33.3%
+}
+@media screen and (max-width:1375px){
+    .card-small-1, .card-small-2 {
+    width:50%;
+    margin:2rem;
+}
+    .card-small-3{
+    width:100%
+    }
+}
+.card-sm{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    @media screen and  (max-width:1356px){
+        flex-direction: column;
+    }
+}
+.card-sm-container{
+    margin-top:-1rem;
+}
+
+.blog-button{
+    margin-top: 2rem;
+}
