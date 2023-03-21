@@ -1,0 +1,25 @@
+@import "_variables";
+
+footer {
+  color: $white-color;
+  background-color: $black-color;
+  font-family: $font-family;
+  padding: 2px 1rem;
+}
+.link-footer,
+.text-footer {
+  margin: 0.5rem;
+  color: $white-color;
+  white-space: nowrap;
+}
+.link-footer:hover {
+  color: rgba(0, 195, 255, 0.65);
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-element {
+    margin: 0.4rem 0;
+    text-align: center;
+    width: 100%;
+  }
+}
