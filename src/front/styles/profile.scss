@@ -1,0 +1,45 @@
+@import "_variables";
+
+.profile-background {
+  background: url("../img/pexels.jpg") center;
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.profile-body {
+  background-color: rgba(255, 255, 255, 0.75);
+  min-height: calc(100vh - 98px);
+}
+
+.background-image {
+  width: 100%;
+  background: url("../img/background-profile-2.jpg") center;
+  background-size: cover;
+  display: flex;
+}
+.profile-img {
+  background: white;
+  border: solid white 0.5rem;
+  border-radius: 100%;
+  height: 12rem;
+  width: 12rem;
+  margin: 1.25rem auto;
+}
+.bio {
+  word-wrap: break-word;
+}
+.body {
+  width: 95%;
+  margin: 0 auto;
+}
+.trip-cards {
+  max-height: 350px;
+  overflow-y: scroll;
+}
+.basic-info {
+  background-color: rgba(255, 255, 255, 0.75);
+  border-radius: 0.65rem;
+  padding: 1rem;
+  margin: 1rem;
+}
