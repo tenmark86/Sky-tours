@@ -113,12 +113,12 @@ export const Settings = () => {
                   className="m-2"
                   size="lm"
                   color="primary"
-                  text="CANCELAR"
+                  text="CANCEL"
                 />
               </Link>
               <input
                 type="submit"
-                value="GUARDAR"
+                value="KEEP"
                 className="button lm secondary m-2"
               />
             </div>
