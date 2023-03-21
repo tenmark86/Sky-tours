@@ -44,7 +44,7 @@ export const Settings = () => {
               id="biography"
               className="input-style my-textarea"
               maxLength="1000"
-              title="Máximo 1000 caracteres"
+              title="Maximum 1000 characters"
               defaultValue={store.currentUser.bio}
               {...register("bio")}
             />
