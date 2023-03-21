@@ -1,0 +1,11 @@
+.settings-background {
+  background-image: url("../img/background-settings.jpg");
+  background-attachment: fixed;
+  background-repeat: repeat;
+  background-size: cover;
+}
+
+.settings-body {
+  background-color: rgba(255, 255, 255, 0.75);
+  min-height: calc(100vh - 96px);
+}
