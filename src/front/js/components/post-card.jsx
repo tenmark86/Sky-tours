@@ -40,7 +40,7 @@ export const PostCard = (props) => {
                 className=""
                 size="sm"
                 color="secondary"
-                text="Leer más"
+                text="Read more"
               />
             </Link>
           </div>
