@@ -3,7 +3,7 @@ import { Context } from "../store/appContext";
 import { useForm } from "react-hook-form";
 import Button from "../components/button";
 import { PostCard } from "../components/post-card";
-// componentes para el modal
+// components for the modal
 import Modal from "react-bootstrap/Modal";
 import CloseIcon from "@material-ui/icons/Close";
 
@@ -11,11 +11,11 @@ export const Blog = () => {
   const { store, actions } = useContext(Context);
   const [posts, setPosts] = useState([]);
   const [postsMap, setPostsMap] = useState("");
-  // variables para modal form new post
+  // variables modal form new post
   const [show, setShow] = useState(false);
   const handleClose = () => setShow(false);
   const handleShow = () => setShow(true);
-  // variables para el hook form
+  // variables for the hook form
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     actions.createPost(JSON.stringify(data), data.media);

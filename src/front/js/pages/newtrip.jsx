@@ -18,7 +18,7 @@ export const NewTrip = () => {
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     if (data.start_date > data.end_date) {
-      alert("La fecha es inválida");
+      alert("date is invalid");
     } else {
       actions.createTrip(JSON.stringify(data));
     }
@@ -59,7 +59,7 @@ export const NewTrip = () => {
               className="input-style"
               placeholder="write cities"
               maxLenght="250"
-              title="Máximo 250 caracteres"
+              title="Maximum 250 characters"
               required
               {...register("cities")}
             />
@@ -100,7 +100,7 @@ export const NewTrip = () => {
               className="input-style my-textarea"
               placeholder="Write your travel plans here"
               maxLenght="5000"
-              title="Máximo 5000 caracteres"
+              title="Maximum 250 characters"
               required
               {...register("activities")}
             />
