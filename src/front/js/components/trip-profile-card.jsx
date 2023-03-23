@@ -49,7 +49,7 @@ const TripProfileCard = (props) => {
               className="text-center"
               size="sm"
               color="secondary"
-              text="Saber más"
+              text="Know more"
             />
           </Link>
         </div>
