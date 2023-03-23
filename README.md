@@ -7,7 +7,7 @@
 Created By Mak Mutuota
   
 ## Description
-* ALX Final project | Sky toues. s
+* ALX Final project | Sky tours
 
 ## Setup/Installation Requirements
 
