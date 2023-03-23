@@ -2,7 +2,7 @@
   "countries": [
     {
       "name_en": "Afghanistan",
-      "name_es": "Afganistán",
+      "name_es": "Afganistan",
       "dial_code": "+93",
       "code": "AF"
     },
@@ -20,7 +20,7 @@
     },
     {
       "name_en": "AmericanSamoa",
-      "name_es": "Samoa Americana",
+      "name_es": "Samoa American",
       "dial_code": "+1684",
       "code": "AS"
     },
@@ -44,13 +44,13 @@
     },
     {
       "name_en": "Antarctica",
-      "name_es": "Antártida",
+      "name_es": "Antarctica",
       "dial_code": "+672",
       "code": "AQ"
     },
     {
       "name_en": "Antigua and Barbuda",
-      "name_es": "Antigua y Barbuda",
+      "name_es": "Antigua and Barbuda",
       "dial_code": "+1268",
       "code": "AG"
     },
@@ -86,7 +86,7 @@
     },
     {
       "name_en": "Azerbaijan",
-      "name_es": "Azerbaiyán",
+      "name_es": "Azerbaijan",
       "dial_code": "+994",
       "code": "AZ"
     },
@@ -656,6 +656,7 @@
     },
     {
       "name_en": "Kenya",
+      "name_es": "Kenya",
       "dial_code": "+254",
       "code": "KE"
     },
